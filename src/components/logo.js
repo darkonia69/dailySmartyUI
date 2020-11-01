@@ -1,11 +1,13 @@
+  
 import React, { Component } from 'react';
+
 import { Link } from 'react-router-dom';
 
 class Logo extends Component {
     render() {
         const size = {
             height: this.props.size ? this.props.size : 105,
-            width:  this.props.size ? this.props.size : 105
+            width: this.props.size ? this.props.size : 105,
         }
         return (
             <div className="logo-main">
@@ -17,4 +19,4 @@ class Logo extends Component {
     }
 }
 
-export default Logo; 
+export default Logo;
